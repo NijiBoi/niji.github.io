@@ -1,10 +1,60 @@
+.navbar {
+background-color: bisque;
+position: fixed;
+top: 0;
+width: 100%;
+
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: brown;
+}
+
+a.brown {
+    color: brown;
+}
+
+
+.banner {
+    background-color: bisque;
+    color: brown;
+    text-align: center;
+    margin: 50px;
+    padding: 25px 0px;
+}
+
+#small-cake {
+ height: 500px;
+ width: 425px;
+ filter: drop-shadow(1px 1px 1px black);   
+}
+
+
+
 body {
-background-image: url("C:\Users\Nigel\Downloads\20230722_210455.jpg");
-opacity: 50%;
+    background-color: bisque;
 }
-h1 {
-text-align: center;
+
+h3 {
+    color: brown;
+    text-align: center;
 }
+
 h2 {
-text-align: center;
+    color: brown;
+    text-align: center;
+}
+
+#greets ul {
+    list-style-type: none;
+    color: brown;
+    text-align: center;
+;
+
 }
